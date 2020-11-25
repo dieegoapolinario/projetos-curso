@@ -76,7 +76,7 @@
   }
 }
 .container-infinite a{
-  bottom: 100px;
+  bottom: 110px;
   position: absolute;
   border: 0;
   background: none;
@@ -96,4 +96,10 @@
 .container-infinite a:hover{
   background: #2e74ad;
   transition: 0.80s;
+}
+.container-infinite .inicio{
+  bottom: 50px;
+}
+.container-infinite .proximo{
+  bottom: -10px;
 }

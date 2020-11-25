@@ -12,6 +12,23 @@ body{
   min-height: 100vh;
   background: #1f242d;
 }
+.container{
+  width: 350px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container h1{
+  color: #626874;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.container a{
+  margin: 10px;
+}
 a{
   position: relative;
   display: inline-block;
@@ -91,12 +108,4 @@ a:hover span:nth-child(4){
   transform-origin: bottom;
   transition: transform 0.5s;
   transition-delay: 0.5s;
-}
-.voltar{
-  top: 60px;
-  right: 150px;
-}
-.proximo{
-  top: 120px;
-  right: 279px;
 }
