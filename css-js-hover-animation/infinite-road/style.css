@@ -80,7 +80,7 @@
   position: absolute;
   border: 0;
   background: none;
-  display: block;
+  display: flex;
   margin: 20px auto;
   text-align: center;
   border: 2px solid #2e74ad;
@@ -102,4 +102,9 @@
 }
 .container-infinite .proximo{
   bottom: -10px;
+}
+.container-infinite h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
 }
