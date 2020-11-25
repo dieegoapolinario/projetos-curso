@@ -75,6 +75,13 @@
     background-position: -1536px;
   }
 }
+.container-infinite h1{
+  position: absolute;
+  top: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
 .container-infinite a{
   bottom: 110px;
   position: absolute;
@@ -102,9 +109,4 @@
 }
 .container-infinite .proximo{
   bottom: -10px;
-}
-.container-infinite h1{
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 500;
 }
