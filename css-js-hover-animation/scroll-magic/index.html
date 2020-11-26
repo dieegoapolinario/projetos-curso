@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Magic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="banner">
+    <video src="../video/video.mp4" autoplay muted loop></video>
+  </section>
+  <div class="container">
+    <h2>Scrool to see Magic Again</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati inventore, placeat consectetur rem eos amet fugiat ullam, et odio incidunt maxime quisquam aperiam vitae assumenda temporibus eaque. Alias, reiciendis dolorem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique veniam nam commodi eum tempore consequuntur, a quo modi sequi, ad recusandae aut quae ut libero itaque error animi ullam laborum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sunt dolor enim sapiente, fugiat quia nisi odit mollitia accusantium dolore perspiciatis necessitatibus suscipit vitae iste et laborum dolores eveniet doloremque.<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia animi porro iste ad, tempore ea, harum nisi temporibus cum nobis eum aspernatur voluptatibus doloribus nihil ex placeat impedit sapiente fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, molestiae! Nisi, harum error, doloribus optio labore fuga molestiae sit officia hic rem, iste facere vitae. Nam animi accusantium esse nostrum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa distinctio quibusdam quia dolorum. Similique alias molestiae magnam dolor veniam pariatur eum placeat neque est, illo ad, tenetur quisquam sunt. Optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi accusamus ipsa dolor, deleniti saepe, ex, eius obcaecati aliquam expedita asperiores odio magni animi? Nulla dolor corporis suscipit animi illum.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea rerum amet dolores molestiae quos quod ipsam esse doloremque saepe, exercitationem cupiditate iusto nulla tenetur ut alias nobis explicabo. Ab, ea? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut omnis error adipisci ullam eos in quibusdam, molestias blanditiis minima odit sunt, perspiciatis officiis atque odio recusandae sit nisi voluptas illo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum fugiat quos, deleniti, ab expedita minus sunt veritatis provident cupiditate, alias aut. Sunt et quod eligendi perferendis voluptates labore ipsum qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam magnam illum, odit velit ducimus possimus vitae repellat ipsa. Alias impedit totam ea quos! Voluptatibus non explicabo temporibus necessitatibus, iste dolore!</p>
+    <a href="../animation-effects/index.html">Anterior</a>
+    <a href="../index.html">Inicio</a>
+    <a href="">Próximo</a>
+  </div>
+  <script type="text/javascript">
+    const banner = document.querySelector('.banner');
+    window.addEventListener('scroll', function(){
+      const value = 800 - window.scrollY;
+      banner.style.clipPath = "circle("+ value +"px at center center)";
+    })
+  </script>
+</body>
+</html>
