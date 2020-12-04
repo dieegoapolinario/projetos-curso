@@ -19,27 +19,27 @@
   background-blend-mode: multiply;
 }
 .container .section:nth-child(1){
-  background: #f00 url(../images/bg1.jpg);
+  background: #f00 url(../images/full-page-scrolling-effects/bg1.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 .container .section:nth-child(2){
-  background: #0f0 url(../images/bg2.jpg);
+  background: #0f0 url(../images/full-page-scrolling-effects/bg2.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 .container .section:nth-child(3){
-  background: #ff0 url(../images/bg3.jpg);
+  background: #ff0 url(../images/full-page-scrolling-effects/bg3.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 .container .section:nth-child(4){
-  background: #0ff url(../images/bg4.jpg);
+  background: #0ff url(../images/full-page-scrolling-effects/bg4.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 .container .section:nth-child(5){
-  background: #00f url(../images/bg5.jpg);
+  background: #00f url(../images/full-page-scrolling-effects/bg5.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
