@@ -17,6 +17,21 @@ body{
   max-width: 100%;
   -webkit-box-reflect: below 1px linear-gradient(transparent 70%, #0009);
 }
+a{
+  position: relative;
+  bottom: 30px;
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+  letter-spacing: 1px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 7px;
+}
+a:hover{
+  background: linear-gradient(#03a9f4, #e91ee3);
+  transition: 0.80s;
+}
 .swiper-slide {
   background-position: center;
   background-size: cover;
