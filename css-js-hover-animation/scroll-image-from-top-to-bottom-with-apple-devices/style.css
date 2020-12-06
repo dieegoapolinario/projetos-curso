@@ -31,7 +31,13 @@ body{
   left: 25px;
   width: 555px;
   height: 313px;
-  background: #f00;
+  background: url(../images/scroll-image-from-top-to-bottom-with-apple-devices/desktopWebsite.jpg);
+  background-position: top;
+  background-size: 100%;
+  transition: 5s linear;
+}
+.container .mac:hover .imgBx{
+  background-position: bottom;
 }
 .container .macBook{
   position: absolute;
@@ -47,7 +53,13 @@ body{
   left: 72px;
   width: 465px;
   height: 291px;
-  background: #00f;
+  background: url(../images/scroll-image-from-top-to-bottom-with-apple-devices/desktopWebsite.jpg);
+  background-position: top;
+  background-size: 100%;
+  transition: 5s linear;
+}
+.container .macBook:hover .imgBx{
+  background-position: bottom;
 }
 .container .iphone{
   position: absolute;
@@ -63,5 +75,11 @@ body{
   left: 44px;
   width: 157px;
   height: 282px;
-  background: #0f0;
+  background: url(../images/scroll-image-from-top-to-bottom-with-apple-devices/mobileWebsite.jpg);
+  background-position: top;
+  background-size: 100%;
+  transition: 15s linear;
+}
+.container .iphone:hover .imgBx{
+  background-position: bottom;
 }
