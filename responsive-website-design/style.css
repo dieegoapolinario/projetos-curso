@@ -46,7 +46,7 @@ header{
   align-items: center;
 }
 header .logo{
-  font-size: 4em;
+  font-size: 2em;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -61,10 +61,11 @@ header .navigation li{
 }
 header .navigation li a{
   color: #fff;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-left: 40px;
   text-decoration: none;
 }
+
 .content{
   position: relative;
   max-width: 600px;
