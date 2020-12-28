@@ -54,3 +54,41 @@ body{
 .inputBox #btn:active{
   background: #9c27b0;
 }
+.copy{
+  position: absolute;
+  top: 64px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+.copy:hover{
+  opacity: 1;
+}
+.alertBox{
+  position: fixed;
+  top: 55%;
+  left: 66%;
+  width: 15%;
+  height: 5vh;
+  background: #9c27b0;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px;
+  display: none;
+}
+.square{
+  position: fixed;
+  top: 54.5%;
+  left: 75%;
+  width: 25px;
+  height: 25px;
+  background: #9c27b0;
+  transform: rotate(45deg);
+  display: none;
+}
+.alertBox.active, .square.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
