@@ -8,14 +8,23 @@
 </head>
 <body>
   <div>
-    <h3>Email Validation Check</h3>
+    <h3>Email Validation Check 01</h3>
     <form action="#" id="form">
       <div class="inputBox">
         <input type="text" name="" id="email" placeholder="Enter Email Address" onkeydown="validation()">
         <span id="text"></span>
       </div>
     </form>
+
+    <h3>Email Validation Check 02</h3>
+    <form action="#" id="form02">
+      <div class="inputBox">
+        <input type="text" id="email02" placeholder="Enter Email Address" onkeyup="validate()">
+        <span class="indicator"></span>
+      </div>
+    </form>
   </div>
+
   <script>
     function validation(){
       var form = document.getElementById("form");
@@ -38,7 +47,23 @@
         form.classList.remove("valid");
         form.classList.remove("invalid");
         text.innerHTML = "";
-        text.style.color = "#ff0000";
+      }
+    }
+    function validate(){
+      const form02 = document.getElementById('form02');
+      const email02 = document.getElementById('email02').value;
+      const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+      if(email02.match(pattern)){
+        form02.classList.add('valid');
+        form02.classList.remove('invalid');
+      } else{
+        form02.classList.add('invalid');
+        form02.classList.remove('valid');
+      }
+      if(email02 == ""){
+        form02.classList.remove('invalid');
+        form02.classList.remove('valid');
       }
     }
   </script>

@@ -44,11 +44,11 @@ body{
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background: url(../images/eye-unchecked.png);
+  background: url(../images/show-hide-password/eye-unchecked.png);
   background-size: cover;
   cursor: pointer;
 }
 #toggle.hide{
-  background: url(../images/eye-checked.png);
+  background: url(../images/show-hide-password/eye-checked.png);
   background-size: cover;
 }

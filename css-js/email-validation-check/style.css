@@ -17,7 +17,8 @@ h3{
   color: #f9f9f9;
   letter-spacing: 1px;
   font-weight: 500;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
+  margin-top: 20px; 
 }
 #form{
   position: relative;
@@ -49,7 +50,7 @@ h3{
   top: 8px;
   width: 24px;
   height: 24px;
-  background: url(../images/invalid.png);
+  background: url(../images/email-validation-check/invalid.png);
   background-size: cover;
   z-index: 1000;
 }
@@ -60,7 +61,49 @@ h3{
   top: 8px;
   width: 24px;
   height: 24px;
-  background: url(../images/valid.png);
+  background: url(../images/email-validation-check/valid.png);
   background-size: cover;
   z-index: 1000;
+}
+
+/*Validation 02*/
+#form02{
+  position: relative;
+  border: 2px solid #131313;
+  background: linear-gradient(#1e2024, #18181c);
+  border-radius: 4px;
+  overflow: hidden;
+}
+#form02 #email02{
+  width: 300px;
+  outline: none;
+  background: transparent;
+  border: navajowhite;
+  padding: 12px 15px;
+  padding-right: 2px;
+  color: #fff;
+  font-size: 18px;
+}
+#form02 .indicator{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  background: #555;
+  border-radius: 50%;
+}
+#form02.valid .indicator{
+  background: #0f0;
+  box-shadow: 0 0 5px #0f0,
+              0 0 10px #0f0,
+              0 0 20px #0f0,
+              0 0 40px #0f0;
+}
+#form02.invalid .indicator{
+  background: #f00;
+  box-shadow: 0 0 5px #f00,
+              0 0 10px #f00,
+              0 0 20px #f00,
+              0 0 40px #f00;
 }
