@@ -10,44 +10,6 @@ body{
   min-height: 100vh;
   background: #091921;
 }
-a{
-  position: absolute;
-  display: flex;
-  text-decoration: none;
-  color: #ccc;
-  font-weight: 500;
-  letter-spacing: 2px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 10px;
-}
-a:hover{
-  background: #ccc;
-  color: #091921;
-  transition: 0.80s;
-}
-.anterior{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 80px;
-  left: 500px;
-}.inicio{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 80px;
-}
-.proximo{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 80px;
-  right: 500px;
-}
 .clock{
   width: 350px;
   height: 350px;

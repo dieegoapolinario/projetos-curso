@@ -15,28 +15,6 @@ section{
   align-items: center;
   flex-direction: column;
 }
-section a{
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  margin: 1px;
-  padding: 5px;
-  top: 10px;
-  font-size: 1em;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #111;
-  font-weight: 500;
-  cursor: pointer;
-  border: 1px solid #111;
-  border-radius: 10px;
-  z-index: 1;
-}
-section a:hover{
-  background: #111;
-  color: #64ff14;
-  transition: 0.80s;
-}
 section h2{
   position: relative;
   font-size: 14em;

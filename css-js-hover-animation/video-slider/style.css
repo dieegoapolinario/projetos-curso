@@ -51,22 +51,6 @@
   opacity: 1;
   transition-delay: 0.5s;
 }
-.container .content a{
-  color: #fff;
-  font-size: 1.5vw;
-  text-decoration: none;
-  position: absolute;
-  top: 30px;
-  border: 1px solid #fff;
-  padding: 10px;
-  letter-spacing: 2px;
-  border-radius: 15px;
-}
-.container .content a:hover{
-  background: #111;
-  border: 1px solid #111;
-  transition: 0.80s;
-}
 .container .content h2{
   color: #fff;
   font-size: 12vw;

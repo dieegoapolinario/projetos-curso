@@ -43,23 +43,6 @@
   background-size: cover;
   background-attachment: fixed;
 }
-.container .section a{
-  position: relative;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-weight: 600;
-  top: 12px;
-  margin: 40px;
-  padding: 8px;
-  border: 1px solid #f00;
-  border-radius: 10px;
-  
-}
-.container .section a:hover{
-  background: #f00;
-  transition: 0.80s;
-}
 .container .section .content{
   position: absolute;
   bottom: 50px;
